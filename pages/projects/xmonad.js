@@ -10,7 +10,7 @@ const Work = () => (
 			<Title>Xmonad Config</Title>
 			<P>
 				Xmonad is a window manager written in haskell. This is a Xmonad
-				config 'riced'.
+				config &apos;riced&apos;.
 			</P>
 			<br />
 			<List ml={4} my={4}>
