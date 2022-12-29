@@ -3,14 +3,17 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
+import thumbCodyai from "../public/images/projects/codyai.jpg";
 import thumbMultiversus from "../public/images/projects/multiverse.png";
 import thumbWeather from "../public/images/projects/weather.png";
 import thumbRetrograde from "../public/images/projects/retrograde.jpg";
 import thumbLyriks from "../public/images/projects/lyriks.jpg";
 import thumbNews from "../public/images/projects/news.png";
+import thumbXmonad from "../public/images/projects/xmonad.png";
 import thumbPingPong from "../public/images/projects/pingpong.jpeg";
 import thumbFlappyBirds from "../public/images/projects/flappybirds.jpg";
 import thumbNetflix from "../public/images/projects/netflixhome.png";
+import thumbQtile from "../public/images/projects/qtile.jpg";
 import thumbFacedetection from "../public/images/projects/facedetection.jpg";
 import thumbTetris from "../public/images/projects/tetris.png";
 import thumbSnake from "../public/images/projects/snake.jpg";
@@ -18,6 +21,12 @@ import thumbIndia from "../public/images/projects/india.jpg";
 
 let index = 0;
 const work = [
+	{
+		key: index++,
+		id: "codyai",
+		title: "CodyAi 🤖",
+		description: "A coding helper bot.",
+	},
 	{
 		key: index++,
 		id: "multiversus",
@@ -57,6 +66,12 @@ const work = [
 		description:
 			"Netflix Clone using React, TailwindCSS, Firebase backend.",
 	},
+	{
+		key: index++,
+		id: "qtile",
+		title: "Qtile Config",
+		description: "Qtile tiling window manager config made in python.",
+	},
 
 	{
 		key: index++,
@@ -65,6 +80,12 @@ const work = [
 		description: "Facial Landmark Detection using Python.",
 	},
 
+	{
+		key: index++,
+		id: "xmonad",
+		title: "Xmonad config",
+		description: "Xmonad tiling window manager config made in haskell",
+	},
 	{
 		key: index++,
 		id: "tetris",
@@ -101,7 +122,9 @@ const work = [
 	},
 ];
 const thumb = (id) => {
-	if (id === "multiversus") {
+	if (id === "codyai") {
+		return thumbCodyai;
+	} else if (id === "multiversus") {
 		return thumbMultiversus;
 	} else if (id === "lyriks") {
 		return thumbLyriks;
@@ -113,8 +136,12 @@ const thumb = (id) => {
 		return thumbFlappyBirds;
 	} else if (id === "netflix") {
 		return thumbNetflix;
+	} else if (id === "qtile") {
+		return thumbQtile;
 	} else if (id === "facedetection") {
 		return thumbFacedetection;
+	} else if (id === "xmonad") {
+		return thumbXmonad;
 	} else if (id === "tetris") {
 		return thumbTetris;
 	} else if (id === "news") {
