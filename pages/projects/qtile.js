@@ -38,20 +38,8 @@ const Work = () => (
 
 			<WorkImage
 				placeholder="blur"
-				src="/images/projects/netflixhome.gif"
+				src="/images/projects/qtile.gif"
 				alt="qtilemain"
-			/>
-
-			<WorkImage
-				placeholder="blur"
-				src="/images/projects/netflixsignin.png"
-				alt="qtile"
-			/>
-
-			<WorkImage
-				placeholder="blur"
-				src="/images/projects/netflixsignup.png "
-				alt="netflixsignin"
 			/>
 		</Container>
 		<br />
