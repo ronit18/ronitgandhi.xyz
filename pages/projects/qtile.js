@@ -10,7 +10,7 @@ const Work = () => (
 			<Title>Qtile Config</Title>
 			<P>
 				Qtile is a window manager written in python. Qtile is simple,
-				small and extensible. It's easy to write your own layouts,
+				small and extensible. It&apos;s easy to write your own layouts,
 				widgets and commands. This is a Qtile config &apos;riced&apos;
 				as in powerline style.
 			</P>
