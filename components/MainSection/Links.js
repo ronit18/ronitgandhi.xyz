@@ -1,44 +1,44 @@
-import React from "react";
+import React from 'react';
 
-import { Link, Heading, Button, SimpleGrid } from "@chakra-ui/react";
+import { Link, Heading, Button, SimpleGrid } from '@chakra-ui/react';
 
-import Section from "../../components/section";
+import Section from '../../components/section';
 import {
 	IoLogoTwitter,
 	IoLogoInstagram,
 	IoLogoGithub,
 	IoLogoLinkedin,
-} from "react-icons/io5";
+} from 'react-icons/io5';
 
 let linksIndex = 0;
 const links = [
 	{
 		id: linksIndex++,
-		social: "https://github.com/ronit18",
+		social: 'https://github.com/ronit18',
 		icon: <IoLogoGithub />,
-		name: "@ronit18",
-		ariaLabel: "Github",
+		name: '@ronit18',
+		ariaLabel: 'Github',
 	},
 	{
 		id: linksIndex++,
-		social: "https://www.linkedin.com/in/ronit-gandhi-a7bb091b6/",
+		social: 'https://www.linkedin.com/in/ronitgandhi08/',
 		icon: <IoLogoLinkedin />,
-		name: "@RonitGandhi20",
-		ariaLabel: "LinkedIn",
+		name: '@RonitGandhi20',
+		ariaLabel: 'LinkedIn',
 	},
 	{
 		id: linksIndex++,
-		social: "https://www.instagram.com/_._mr.gandhi_._/?igshid=YmMyMTA2M2Y%3D",
+		social: 'https://www.instagram.com/ronitgandhi.xyz/',
 		icon: <IoLogoInstagram />,
-		name: "@_._mr.gandhi_._",
-		ariaLabel: "Insta",
+		name: '@ronitgandhi.xyz',
+		ariaLabel: 'Insta',
 	},
 	{
 		id: linksIndex++,
-		social: "https://twitter.com/RonitGandhi20",
+		social: 'https://twitter.com/RonitGandhi20',
 		icon: <IoLogoTwitter />,
-		name: "@RonitGandhi20",
-		ariaLabel: "Twitter",
+		name: '@RonitGandhi20',
+		ariaLabel: 'Twitter',
 	},
 ];
 
